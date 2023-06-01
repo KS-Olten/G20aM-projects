@@ -1,7 +1,9 @@
 # Dies ist die Streamlit App. Sie enthält nur Code, welcher für die Darstellung relevant ist
 
 import streamlit as st # Lade Streamlit Bibliothek
+from helper_blockchain import Helper # Lade helper-Klasse aus helper.py
 
+h =  Helper(100) # Erstelle Helfer-Objekt
 
 # Schreibe einen Titel
 st.title("Blockchain")
